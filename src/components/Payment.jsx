@@ -28,7 +28,7 @@ export default function Payment() {
     }
 
     // Create an order on your server and get the order_id
-    const result = await fetch('http://localhost:4000/api/create-order', {
+    const result = await fetch('https://foodcrave.onrender.com/api/create-order', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

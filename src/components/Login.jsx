@@ -5,7 +5,7 @@ function Login() {
     let navigate = useNavigate();
     const handleSubmit = async (e)=>{
         e.preventDefault();
-        const respnse = await fetch('http://localhost:4000/api/loginuser',{
+        const respnse = await fetch('https://foodcrave.onrender.com/api/loginuser',{
           method:'POST',
           headers:{
             'Content-Type':'application/json'
